@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    font-family: "DM Sans";
+    height: 100vh;
+    background-image:url('https://s3-alpha-sig.figma.com/img/1c38/d4fa/4db4cd55e01f5868d545ea1ff9da648d?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=OzEjJrjs4WdafzcuiiKDVdU3uR7m~qbODIAP9NFYSHDObfCzX9odxf6bODVUOfcfMBntWuREVXw1~oXu4hu-N8nRzA4BYQWeEPA2QMIsJt6ERK70bW4P7FpRINk-W88HuC06E3y5PW1D93WeuIUtdZ~~RT5bnoRJH5y6zRmZ4UZG2hEMbG0xygDHya8RaGn54QyUES7Q2esEB5cPYfDMg0xyaruou1mG3gapFJuEX23qNFjsmbDTUi5Fe0Xox-q2OtBOjDJuMEYxLDjUty8bIaW2wOZEgmVd-O9x8HLnw5HskSK3JpeNOV3w8XPKtDGVYe3QylbZO0vuuGigNkDrcw__'),
+    linear-gradient(rgba(35, 66, 178, 0.6), rgba(171, 73, 241, 0.6));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+}
